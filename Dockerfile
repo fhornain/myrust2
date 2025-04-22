@@ -2,7 +2,7 @@ FROM rust:latest
 
 COPY ./ ./
 
-RUN cargo build --release
+RUN cargo run
 
 EXPOSE 8080/tcp
 
