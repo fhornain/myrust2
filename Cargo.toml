@@ -5,6 +5,4 @@ edition = "2025"
 authors = ["Frederic Horanin <fhornain@gmail.com>"]
 
 [dependencies]
-actix-web.workspace = true
-env_logger.workspace = true
-log.workspace = true
+actix-web = "4"
